@@ -1,0 +1,38 @@
+.fon{
+    width: 100%;
+    height: 100%; 
+    overflow: hidden;
+}
+.logo{
+    position: absolute;
+    top: 50px;
+}
+.fon2{
+    width: 100%;
+}
+.txt1{
+    color: white;
+    position: absolute;
+    font-size: 24px;
+    width: 35%;
+    top: 920px;
+    left: 260px;
+}
+.txt2{
+    color: white;
+    position: absolute;
+    font-size: 24px;
+    width: 40%;
+    top: 1325px;
+    right: 40px;
+    text-align: right;
+}
+.txt3{
+    color: white;
+    position: absolute;
+    font-size: 24px;
+    width: 35%;
+    top: 1770px;
+    left: 60px;
+    text-align: left;
+}

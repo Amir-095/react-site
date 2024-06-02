@@ -1,0 +1,26 @@
+body{
+    background-color: #232323;
+    background-image: url(https://cdn.steamstatic.com/steamcommunity/public/images/items/1846380/fd32ecd2a8d1150c506a8d9e88946e3111c29638.jpg);
+}
+.card {
+    margin-top: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border: none;
+  }
+  
+  .card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    opacity:1;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #555;
+  }
