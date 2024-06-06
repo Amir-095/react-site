@@ -20,3 +20,8 @@
 .custom-nav-link .nav-link:hover{
     color: #48ff00;
 } 
+.custom-nav-link .dropdown-item img.dropdown-logo {
+    width: 20px; /* Установите нужный размер логотипа */
+    height: 20px; /* Установите нужный размер логотипа */
+    margin-right: 10px; /* Добавлено для отступа между логотипом и текстом */
+}

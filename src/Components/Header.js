@@ -1,6 +1,8 @@
 import React from 'react';
 import { Button, Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import logo from '../images/logo.svg';
+import epicGamesLogo from '../images/Epic_Games_logo.svg.png';
+import Steamlogo from '../images/Steam_logo.svg.png';
 import '../css/Header.css';
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Home from "../Pages/Home";
@@ -25,6 +27,12 @@ function Header() {
               <Nav.Link href="/" className="custom-nav-link">Главная</Nav.Link>
               <Nav.Link href="/map" className="custom-nav-link">Карта</Nav.Link>
               <Nav.Link href="/cars" className="custom-nav-link">Автомобили</Nav.Link>
+            </Nav>
+            <Nav className="ml-auto">
+              <NavDropdown title="Купить игру" id="buy-game-dropdown" className="custom-nav-link">
+                <NavDropdown.Item href="https://store.steampowered.com/app/1846380/Need_for_Speed_Unbound/"> <img src={epicGamesLogo} alt="Epic Games Logo" className="dropdown-logo" />Steam</NavDropdown.Item>
+                <NavDropdown.Item href="https://store.epicgames.com/en-US/p/need-for-speed-unbound"> <img src={Steamlogo} alt="Epic Games Logo" className="dropdown-logo" />Epic Games</NavDropdown.Item>
+              </NavDropdown>
             </Nav>
           </Navbar.Collapse>
         </Container>
